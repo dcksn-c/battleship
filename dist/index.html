@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bangers&family=Montserrat&display=swap" rel="stylesheet">
+    <script src="main.js" defer></script>
+</head>
+<body>
+    <h1 class="title">Battleship</h1>
+    <div class="gameboard"></div>
+    <div class="btn-container">
+        <button class="flip-btn">Rotate Ship</button>
+        <button class="start-btn">Start</button>
+    </div>
+    <div class="game-info">
+        <p><span class="info-display">Drag & drop your ships.</span></p>
+    </div>
+    <div class="ships-container">
+        <div id="0" class="destroyer-display destroyer" draggable="true"></div>
+        <div id="1" class="submarine-display submarine" draggable="true"></div>
+        <div id="2" class="cruiser-display cruiser" draggable="true"></div>
+        <div id="3" class="battleship-display battleship" draggable="true"></div>
+        <div id="4" class="carrier-display carrier" draggable="true"></div>
+    </div>
+
+    <img src="./images/battleship.svg" class="battleship-img">
+
+</body>
+</html>
